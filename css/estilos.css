@@ -40,6 +40,11 @@ h4 {
     color: #ffc107 !important;
 }
 
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 button {
     color: white !important;
 }

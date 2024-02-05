@@ -1,4 +1,4 @@
-/*cambio color fondo menú navegación*/
+
 nav.bg-body-tertiary {
     background-color: black !important;
 }
@@ -31,10 +31,62 @@ p.card-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.parrafoUno {
-    background-color: #ff9307 !important;
+h4 {
+    color: orangered !important;
 }
 
-.parrafoDos {
-    background-color: #ff9307 !important;
+.titulofooter {
+    color: #ffc107 !important;
+}
+
+button {
+    color: white !important;
+}
+/*formulario*/
+
+form{
+    width: 25%;
+    padding: 3%;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #f7c94a;
+}
+
+div.formularioContacto{
+    display-flex;
+    flex-direction: column;
+    margin: 0% 10%;
+}
+
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    margin-bottom: 12px;
+}
+
+.login{
+    border: 1px solid black;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+}
+
+fieldset, input{
+    margin-bottom: 12px;
+}
+
+fieldset{
+    border: 1px solid black !important;
+}
+
+@media(max-width: 650px){
+form{
+    width: 80%;
+}
+}
+
+h2.tituloFormulario{
+    text-align: center;
 }

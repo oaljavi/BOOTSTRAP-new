@@ -61,7 +61,6 @@
     <br>
     <br>
 
-    <!--Bloque de 3 columnas con contenido-->
     <div class="container text-center">
       <div class="row align-items-start">
         <div class="col">
@@ -86,7 +85,7 @@
           <div class="card" style="width: 18rem;">
             <img src="img/monitor3.jpg" class="card-img-top" alt="tarjeta3">
             <div class="card-body">
-              <h4>Daniel Chinono</h4>
+              <h4>Danielillo</h4>
               <p class="card-text">Experto en ná.</p>
             </div>
           </div>
@@ -97,8 +96,46 @@
     <br>
     <br>
     <hr>
+
+     <div class="container mt-5">
+  
+      <div class="row align-items-center">
+
+          <div class="col-md-6">
+              <img src="img/entrenamiento.jpg" alt="Imagen 1" class="img-fluid" style="height: 400px;">
+          </div>
+
+          <div class="col-md-6">
+              <div class="text-center">
+                  <h4><b>RUTINAS DE ENTRENAMIENTO</b></h4>
+                  <p>Aprovecha al máximo tu entrenamiento con nuestras rutinas personalizadas. Ya sea que estés buscando construir músculo, perder peso o mejorar tu salud en general, nuestros expertos están aquí para ayudarte a alcanzar tus objetivos. Descubre una nueva forma de cuidar de ti mismo y potenciar tu bienestar físico y mental.</p>
+                  <button type="button" class="btn btn-warning"><b>Más información</b></button>
+
+                </div>
+          </div>
+      </div>
+
+      <div class="row align-items-center">
+
+          <div class="col-md-6">
+              <div class="text-center">
+                  <h4><b>DIETAS PERSONALIZADAS</b></h4>
+                  <p>Cuidar tu salud comienza con una dieta equilibrada y adaptada a tus necesidades individuales. Nuestro equipo de expertos en nutrición está listo para ayudarte a crear un plan de alimentación personalizado que se ajuste a tus metas y estilo de vida. Desde perder peso hasta mejorar tu rendimiento, te proporcionaremos las herramientas y el apoyo necesario para lograr tus objetivos de bienestar.</p>
+                  <button type="button" class="btn btn-warning"><b>Más información</b></button>
+
+                </div>
+          </div>
+
+          <div class="col-md-6">
+              <img src="img/dieta.jpg" alt="Imagen 2" class="img-fluid" style="height: 400px;">
+          </div>
+      </div>
+  </div>
+
     <br>
-      <!--Bloque de 4 columnas-->
+    <br>
+    <br>
+
       <div class="container text-center">
         <div class="row align-items-start">
           <div class="col">
@@ -124,29 +161,84 @@
         </div>
       </div>
 
-      <br>
-      <hr>
-      <br>
-      <!--Bloque de 2 columnas-->
-      <div class="container text-center">
-        <div class="row align-items-center">
-          <div class="col">
-            <img src="img/entrenamiento.jpg" class="card-img-top" alt="tarjeta8" style="width: 35rem;">
-            <h4 class="parrafoUno"><b>Entrenamientos</b></h4>
-            <p></p>
-          </div>
-          <div class="col">
-            <img src="img/dieta.jpg" class="card-img-top" alt="tarjeta9" style="width: 35rem;">
-            <h4 class="parrafoDos"><b>Dietas</b></h4>
-            <p></p>
-          </div>
-        </div>
-      </div>
+  <br>
+  <hr>
+  <br>
 
+  <h2 class="tituloFormulario"><b><u>Formulario de Contacto</u></b></h2> <br>
+  <div class="formularioContacto">
 
-
-
-
+    <form name=formulario action="ejecutar-codigo.php" method="post" id="Miformulario">
       
+        
+        <label for="nombre">Nombre: *</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+
+        <label for="telefono">Teléfono: *</label>
+        <input type="tel" id="telefono" name="telefono" minlength="9" required>
+        <br>
+
+        <label for="email">Email: *</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        
+      <fieldset>
+        <label>¿Tiene carnet de conducir?</label>
+        <br>
+        <input type="radio" id="si" name="carnet" value="si">
+        <label for="si">Sí</label>
+        <br>
+        <input type="radio" id="no" name="carnet" value="no">
+        <label for="no">No</label>
+        </fieldset>
+        <br>
+
+        <label for="mensaje">Mensaje (máximo 300 caracteres):</label>
+        <br>
+        <textarea id="miarea" name="mensaje" cols="35" rows="5" maxlength="300"></textarea>
+        <br>
+
+        <input type="checkbox" id="avisoLegal" name="avisoLegal" required>
+        <label for="avisoLegal">Acepto el Aviso Legal</label><br>
+
+        <input type="reset" value="Limpiar"><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    </div>
+
+  <footer class="bg-dark text-white mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-left">
+                <h4 class="titulofooter">Síguenos en Redes Sociales</h4>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/" target="_blank" class="text-white">
+                            <i class="bi bi-instagram fs-3 mr-3"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/home?lang=es" target="_blank" class="text-white">
+                            <i class="bi bi-twitter fs-3 mr-4"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://web.whatsapp.com/" target="_blank" class="text-white">
+                            <i class="bi bi-whatsapp fs-3"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <p class="mb-0">05/02/2024</p><br>
+                <p class="mb-0">&copy; TunaFit. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>

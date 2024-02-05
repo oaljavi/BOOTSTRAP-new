@@ -4,6 +4,11 @@ nav.bg-body-tertiary {
     background-color: black !important;
 }
 
+div.menu a{
+    padding: 15px;
+    margin: 15px;
+}
+
 a.nav-link {
     color: #f8f7f5;
     background-color: #ffc107;
@@ -48,6 +53,14 @@ footer {
 button {
     color: white !important;
 }
+
+.btn-floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+}
+
 /*formulario*/
 
 form{
@@ -96,4 +109,5 @@ form{
 h2.tituloFormulario{
     text-align: center;
 }
+
 

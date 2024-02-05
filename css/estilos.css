@@ -1,4 +1,5 @@
 
+/*Cambiar color menú nav*/
 nav.bg-body-tertiary {
     background-color: black !important;
 }
@@ -90,3 +91,4 @@ form{
 h2.tituloFormulario{
     text-align: center;
 }
+

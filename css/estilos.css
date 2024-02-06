@@ -110,4 +110,23 @@ h2.tituloFormulario{
     text-align: center;
 }
 
+/*Página de información*/
 
+.tituloE{
+    text-align: center;
+}
+
+.tituloD{
+    text-align: center;
+}
+
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.btn-volver {
+    margin-top: 20px;
+    background-color: orangered !important;
+    border-color: black !important;
+}
